@@ -1,0 +1,45 @@
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+body {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+button:hover,
+button:focus {
+  cursor: pointer;
+}
+
+.pop-up {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 419px) {
+  .pop-up {
+    width: calc(100vw - 60px);
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .pop-up {
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pop-up {
+    width: 500px;
+  }
+}
+
+.is-hiden {
+  display: none;
+}

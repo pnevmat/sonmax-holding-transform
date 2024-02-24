@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'Orchidea Pro SmBd';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Orchidea Pro SemiBold'), local('OrchideaPro-SemiBold'),
+			url('../fonts/orchidea-pro/OrchideaPro-SemiBold.woff') format('woff'),
+			url('../fonts/orchidea-pro/OrchideaPro-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Orchidea Pro Bd';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Orchidea Pro Bold'), local('OrchideaPro-Bold'),
+			url('../fonts/orchidea-pro/OrchideaPro-Bold.woff') format('woff'),
+			url('../fonts/orchidea-pro/OrchideaPro-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Orchidea Pro Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Orchidea Pro Regular'), local('OrchideaPro-Regular'),
+	url('../fonts/orchidea-pro/OrchideaPro-Regular.woff') format('woff'),
+			url('../fonts/orchidea-pro/OrchideaPro-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Orchidea Pro Italic';
+	font-style: italic;
+	font-weight: normal;
+	src: local('Orchidea Pro Italic'), local('OrchideaPro-Italic'),
+			url('../fonts/orchidea-pro/OrchideaPro-Italic.woff') format('woff'),
+			url('../fonts/orchidea-pro/OrchideaPro-Italic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Gilroy SmBd';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
+			url('../fonts/gilroy/Gilroy-SemiBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Gilroy Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Gilroy Regular'), local('Gilroy-Regular'),
+			url('../fonts/gilroy/Gilroy-Regular.woff') format('woff');
+}
+
