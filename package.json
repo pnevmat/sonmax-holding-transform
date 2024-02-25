@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "homepage": "https://pnevmat.github.io/sonmax-holding-transform",
-  "source": "src/index.html",
+	"browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "dev": "parcel",
+    "dev": "parcel ./src/index.html",
     "build": "parcel build",
     "predeploy": "npm run build -- --public-url=/sonmax-holding-transform/",
     "deploy": "gh-pages -d dist"

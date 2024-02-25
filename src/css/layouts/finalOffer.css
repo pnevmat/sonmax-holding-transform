@@ -1,0 +1,90 @@
+.finalOfferContainer {
+  padding-top: 89px;
+  padding-left: 358px;
+  padding-bottom: 140px;
+  background-color: #010101;
+}
+
+.finalOfferWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 77.7%;
+}
+
+.finalOfferTextContainer {
+  width: 46%;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.finalOfferText {
+  color: #fff401;
+}
+
+.finalOfferTextWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5px;
+}
+
+.finalOfferTextWrapper > img {
+  width: 49px;
+  height: 67px;
+}
+
+.finalOfferForm {
+  width: 43.2%;
+  padding: 40px;
+  border: 1px solid #515151;
+  border-radius: 20px;
+  background-color: #fff401;
+}
+
+.finalOfferInput {
+  width: 92%;
+  padding: 20px;
+  border: 1px solid #00000033;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+}
+
+.finalOfferInput::placeholder {
+  font-family: Proxima Nova;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #00000080;
+}
+
+.finalOfferInput:focus {
+  outline: none;
+}
+
+.finalOfferButton {
+  width: 100%;
+  padding: 25px 40px 25px 40px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(0deg, #000000, #000000);
+  box-shadow: 0px 4px 34px 0px #fff40199;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff401;
+}

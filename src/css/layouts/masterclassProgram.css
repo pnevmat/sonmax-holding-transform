@@ -1,0 +1,145 @@
+.masterclassProgramContainer {
+  padding-top: 89px;
+  padding-left: 358px;
+  padding-bottom: 140px;
+  text-align: left;
+  background-color: #010101;
+}
+
+.masterclassProgramTitle {
+  display: inline-block;
+  margin-bottom: 40px;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff401;
+}
+
+.masterclassProgramListContainer {
+  display: inline-block;
+  width: 72.5%;
+  padding: 40px;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
+
+.masterclassProgramDate,
+.masterclassProgramLength {
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.masterclassProgramDate {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.masterclassProgramLength {
+  background-color: #fff401;
+}
+
+.masterclassProgramListWrapper {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.masterclassProgramListCard {
+  display: flex;
+  width: 92%;
+  padding: 20px;
+  border: 1px solid #515151;
+}
+
+.masterclassProgramListImgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.masterclassProgramListImgContainer > img {
+  position: relative;
+  top: -40%;
+  left: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.biggerTop > img {
+  top: -43%;
+}
+
+.masterclassProgramListText {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.offerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #515151;
+  border-radius: 10px;
+  background-color: #101010;
+}
+
+.offerTextContainer {
+  width: 48%;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.yellow {
+  color: #fff401;
+}
+
+.buttonContainer {
+  width: 48%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #515151;
+}
+
+.offerButton {
+  width: 100%;
+  height: 88px;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(0deg, #fff401, #fff401);
+  box-shadow: 0px 4px 34px 0px #fff40199;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}

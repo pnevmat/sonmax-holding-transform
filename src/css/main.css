@@ -2,3 +2,8 @@
 @import './base/common.css';
 @import './utils/fonts.css';
 @import './layouts/header.css';
+@import './layouts//whyYouMakeBisiness.css';
+@import './layouts//invintation.css';
+@import './layouts//masterclassProgram.css';
+@import './layouts//speaker.css';
+@import './layouts//finalOffer.css';

@@ -1,0 +1,100 @@
+.invintationContainer {
+  padding-top: 89px;
+  padding-left: 358px;
+  padding-bottom: 140px;
+  background-color: #010101;
+  text-align: left;
+}
+
+.invintationTitle {
+  display: inline-block;
+  width: 55%;
+  margin-bottom: 40px;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff401;
+}
+
+.invitationListContainer {
+  display: inline-block;
+  width: 63%;
+  padding: 40px;
+  border-radius: 40px;
+  background-color: #121212;
+}
+
+.invitationListWrapper {
+  display: grid;
+  grid-template-columns: 49.4% 49.4%;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.invitationListCard {
+  display: flex;
+  align-items: center;
+  width: 93%;
+  padding: 20px;
+  padding-left: 10px;
+  border: 1px solid #303030;
+}
+
+.invintationImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.invintationImageContainer > img {
+  position: relative;
+  top: -40%;
+  left: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.invintationListText {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.invintationQuestionContainer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-left: 10px;
+  background-color: #ff9242;
+}
+
+.invintationQuestionImgContainer {
+  position: relative;
+  width: 18px;
+  height: 42px;
+  margin-right: 10px;
+}
+
+.invintationQuestionImgContainer > img {
+  position: absolute;
+  top: -4.5%;
+  left: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.invintationQuestionText {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
