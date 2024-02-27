@@ -1,7 +1,10 @@
 .finalOfferContainer {
+  width: 100%;
   padding-top: 89px;
   padding-left: 358px;
   padding-bottom: 140px;
+  margin-right: auto;
+  margin-left: auto;
   background-color: #010101;
 }
 
@@ -32,7 +35,7 @@
   padding-right: 5px;
 }
 
-.finalOfferTextWrapper > img {
+.arrowPc {
   width: 49px;
   height: 67px;
 }
@@ -87,4 +90,267 @@
   letter-spacing: 0em;
   text-align: center;
   color: #fff401;
+}
+
+@media screen and (max-width: 767px) {
+  .finalOfferContainer {
+    padding: 30px;
+  }
+
+  .finalOfferTextContainer {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+  }
+
+  .finalOfferWrapper {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .finalOfferTextContainer {
+    width: 100%;
+  }
+
+  .arrowPc {
+    display: none;
+  }
+
+  .arrowMobile {
+    width: 19px;
+    height: 27px;
+  }
+
+  .finalOfferForm {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 339px) {
+  .finalOfferWrapper {
+    max-width: 260px;
+  }
+
+  .finalOfferTextContainer {
+    max-width: 260px;
+  }
+
+  .finalOfferForm {
+    max-width: 220px;
+  }
+
+  .finalOfferInput {
+    width: 81%;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 359px) {
+  .finalOfferWrapper {
+    max-width: 280px;
+  }
+
+  .finalOfferTextContainer {
+    max-width: 280px;
+  }
+
+  .finalOfferForm {
+    max-width: 240px;
+  }
+
+  .finalOfferInput {
+    width: 82%;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 379px) {
+  .finalOfferWrapper {
+    max-width: 300px;
+  }
+
+  .finalOfferTextContainer {
+    max-width: 300px;
+  }
+
+  .finalOfferForm {
+    max-width: 260px;
+  }
+
+  .finalOfferInput {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 419px) {
+  .finalOfferWrapper {
+    max-width: 320px;
+  }
+
+  .finalOfferTextContainer {
+    max-width: 320px;
+  }
+
+  .finalOfferForm {
+    max-width: 280px;
+  }
+
+  .finalOfferInput {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  .finalOfferContainer {
+    max-width: 360px;
+  }
+
+  .finalOfferWrapper {
+    max-width: 360px;
+  }
+
+  .finalOfferTextContainer {
+    max-width: 552px;
+  }
+
+  .finalOfferForm {
+    max-width: 320px;
+  }
+
+  .finalOfferInput {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .arrowMobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .finalOfferContainer {
+    max-width: 743px;
+    padding-left: 25px;
+  }
+
+  .finalOfferWrapper {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .finalOfferTextContainer {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .arrowPc {
+    display: none;
+  }
+
+  .arrowMobile {
+    display: block;
+    width: 49px;
+    height: 67px;
+  }
+
+  .finalOfferForm {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .finalOfferContainer {
+    max-width: 974px;
+    padding-left: 50px;
+  }
+
+  .finalOfferWrapper {
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .finalOfferTextContainer {
+    width: 100%;
+    max-width: 552px;
+  }
+
+  .finalOfferForm {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
+  .finalOfferContainer {
+    max-width: 1230px;
+    padding-left: 50px;
+  }
+
+  .finalOfferWrapper {
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .finalOfferTextContainer {
+    width: 100%;
+    max-width: 552px;
+  }
+
+  .finalOfferForm {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1699px) {
+  .finalOfferContainer {
+    max-width: 1260px;
+    padding-left: 100px;
+  }
+
+  .finalOfferWrapper {
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .finalOfferTextContainer {
+    width: 100%;
+    max-width: 552px;
+  }
+
+  .finalOfferForm {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .finalOfferContainer {
+    max-width: 1342px;
+  }
+
+  .finalOfferWrapper {
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .finalOfferTextContainer {
+    width: 100%;
+    max-width: 552px;
+  }
+
+  .finalOfferForm {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .finalOfferContainer {
+    max-width: 1562px;
+  }
 }
