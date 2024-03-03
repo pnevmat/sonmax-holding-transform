@@ -7,6 +7,10 @@
   background-repeat: no-repeat, no-repeat;
 }
 
+.paddings {
+  position: relative;
+}
+
 .online {
   align-items: center;
   justify-content: space-between;
@@ -300,7 +304,7 @@
   .backgroundLiner {
     background-image: linear-gradient(
       to top,
-      rgba(8, 8, 8 1) 57.5%,
+      rgba(8, 8, 8, 1) 57.5%,
       rgba(8, 8, 8, 0.9) 58.58%,
       rgba(8, 8, 8, 0.8) 59.58%,
       rgba(8, 8, 8, 0.7) 60.58%,
@@ -340,6 +344,7 @@
 @media screen and (min-width: 341px) and (max-width: 360px) {
   .header {
     background-size: 125% 35%;
+    background-position: 50% 24%;
   }
 }
 
@@ -359,7 +364,7 @@
 
 @media screen and (min-width: 381px) and (max-width: 767px) {
   .header {
-    background-size: 125% 50%;
+    background-size: 125% 44%;
     background-position: 50% 30%;
   }
 
@@ -433,13 +438,14 @@
   }
 
   .backgroundLinerPc {
+    position: absolute;
     background-image: linear-gradient(
       to top,
-      rgba(10, 10, 10, 1) 80.51%,
-      rgba(10, 10, 10, 0.9) 90.58%,
-      rgba(15, 15, 15, 0.8) 100.58%,
-      rgba(25, 25, 25, 0.7) 110.58%,
-      rgba(25, 25, 25, 0.6) 120.58%
+      rgba(11, 11, 11, 1) 80.51%,
+      rgba(11, 11, 11, 0.9) 90.58%,
+      rgba(25, 25, 25, 0.8) 100.58%,
+      rgba(30, 30, 30, 0.7) 110.58%,
+      rgba(30, 30, 30, 0.6) 120.58%
     );
     background-repeat: no-repeat;
   }
@@ -467,7 +473,7 @@
     padding-bottom: 50px;
     padding-left: 25px;
     background-size: 58% 50%, 150% 130%;
-    background-position: 97% 56%, 45% 100%;
+    background-position: 96.2% 56%, 45% 100%;
   }
 
   .questionsContainer {
@@ -484,9 +490,20 @@
   }
 
   .youGetBlockContainer {
+    position: relative;
+    z-index: 3;
     flex-direction: column-reverse;
     gap: 20px;
     max-width: 718px;
+  }
+
+  .backgroundLinerPc {
+    top: 67.4%;
+    left: 0;
+    width: 100%;
+    max-width: 911px;
+    height: 140px;
+    border-radius: 20px;
   }
 
   .youGetContainer {
@@ -507,8 +524,8 @@
     max-width: 974px;
     padding-left: 50px;
     padding-bottom: 50px;
-    background-size: 60% 70%, 150% 110%;
-    background-position: 105% 60%, 45% 100%;
+    background-size: 63.4% 70%, 150% 110%;
+    background-position: 96.7% 60%, 45% 100%;
   }
 
   .questionsContainer {
@@ -520,9 +537,28 @@
   }
 
   .youGetBlockContainer {
+    position: relative;
+    z-index: 3;
     flex-direction: column-reverse;
     max-width: 1202px;
     gap: 20px;
+  }
+
+  .backgroundLinerPc {
+    top: 68.1%;
+    left: 3.3%;
+    width: 100%;
+    max-width: 911px;
+    height: 280px;
+    border-radius: 20px;
+    background-image: linear-gradient(
+      to top,
+      rgba(10, 10, 10, 1) 80.51%,
+      rgba(10, 10, 10, 0.9) 90.58%,
+      rgba(25, 25, 25, 0.8) 100.58%,
+      rgba(30, 30, 30, 0.7) 110.58%,
+      rgba(30, 30, 30, 0.6) 120.58%
+    );
   }
 
   .youGetImgContainer {
@@ -539,7 +575,10 @@
 
 @media screen and (min-width: 1280px) {
   .backgroundLinerPc {
-    height: 214px;
+    width: 100%;
+    max-width: 911px;
+    height: 170px;
+    border-radius: 20px;
   }
 
   .youGetBlockContainer {
@@ -552,8 +591,19 @@
     max-width: 1230px;
     padding-left: 50px;
     padding-bottom: 50px;
-    background-size: 48% 78%, 150% 100%;
-    background-position: 90% 60%, 50% 100%;
+    background-size: 50.5% 78%, 150% 100%;
+    background-position: 92.5% 60%, 50% 100%;
+  }
+
+  .youGetBlockContainer {
+    position: relative;
+    z-index: 3;
+  }
+
+  .backgroundLinerPc {
+    top: 74.1%;
+    left: 25.9%;
+    height: 192px;
   }
 }
 
@@ -566,7 +616,14 @@
   }
 
   .youGetBlockContainer {
+    position: relative;
+    z-index: 3;
     max-width: 1210px;
+  }
+
+  .backgroundLinerPc {
+    top: 74.1%;
+    left: 23.7%;
   }
 }
 
@@ -574,12 +631,23 @@
   .header {
     max-width: 1342px;
     padding-left: 358px;
-    background-size: 43% 88%, 150% 100%;
-    background-position: 90% 90%, 45% 0%;
+    background-size: 40.5% 88%, 150% 100%;
+    background-position: 87% 94%, 45% 0%;
   }
 
   .youGetBlockContainer {
+    position: relative;
+    z-index: 3;
     max-width: 1210px;
+  }
+
+  .backgroundLinerPc {
+    top: 74%;
+    left: 22.3%;
+    width: 100%;
+    max-width: 911px;
+    height: 192px;
+    border-radius: 20px;
   }
 }
 
@@ -589,12 +657,19 @@
     padding-right: 358px;
     padding-bottom: 140px;
     padding-left: 358px;
-    background-size: 39% 80%, cover;
-    background-position: 71% 24%, top;
+    background-size: 36.5% 80%, cover;
+    background-position: 72.3% 24%, top;
   }
 
   .youGetBlockContainer {
+    position: relative;
+    z-index: 3;
     max-width: 1222px;
+  }
+
+  .backgroundLinerPc {
+    top: 78.5%;
+    left: 24.5%;
   }
 
   .youGetImgContainer {
