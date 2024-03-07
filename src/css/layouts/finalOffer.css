@@ -97,12 +97,6 @@
     padding: 30px;
   }
 
-  .finalOfferTextContainer {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 29px;
-  }
-
   .finalOfferWrapper {
     flex-direction: column;
     gap: 20px;
@@ -111,6 +105,27 @@
 
   .finalOfferTextContainer {
     width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+  }
+
+  .finalOfferTextContainer > span {
+    display: inline-block;
+    width: 100%;
+    max-width: 249px;
+  }
+
+  .finalOfferTextWrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .finalOfferText {
+    display: inline-block;
+    width: 100%;
+    max-width: 236px;
   }
 
   .arrowPc {
@@ -118,8 +133,8 @@
   }
 
   .arrowMobile {
-    width: 19px;
-    height: 27px;
+    width: 22px;
+    height: 25px;
   }
 
   .finalOfferForm {
@@ -173,6 +188,10 @@
     max-width: 300px;
   }
 
+  .finalOfferTextContainer > span {
+    max-width: 290px;
+  }
+
   .finalOfferForm {
     max-width: 260px;
   }
@@ -189,6 +208,10 @@
 
   .finalOfferTextContainer {
     max-width: 320px;
+  }
+
+  .finalOfferTextContainer > span {
+    max-width: 290px;
   }
 
   .finalOfferForm {
@@ -211,6 +234,10 @@
 
   .finalOfferTextContainer {
     max-width: 552px;
+  }
+
+  .finalOfferTextContainer > span {
+    max-width: 290px;
   }
 
   .finalOfferForm {
