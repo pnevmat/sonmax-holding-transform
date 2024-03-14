@@ -3,8 +3,6 @@
   padding-top: 89px;
   padding-left: 358px;
   padding-bottom: 140px;
-  margin-right: auto;
-  margin-left: auto;
   text-align: left;
   background-color: #010101;
 }
@@ -276,12 +274,11 @@
 }
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
-  .masterclassProgramContainer {
-    max-width: 420px;
-  }
-
   .masterclassProgramListContainer {
+    display: block;
     max-width: 360px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .masterclassProgramListCard {
@@ -295,7 +292,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .masterclassProgramContainer {
-    max-width: 743px;
     padding-left: 25px;
   }
 
@@ -315,7 +311,6 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .masterclassProgramContainer {
-    max-width: 974px;
     padding-left: 50px;
   }
 
@@ -335,7 +330,6 @@
 
 @media screen and (min-width: 1280px) and (max-width: 1359px) {
   .masterclassProgramContainer {
-    max-width: 1230px;
     padding-left: 50px;
   }
 
@@ -355,7 +349,6 @@
 
 @media screen and (min-width: 1360px) and (max-width: 1699px) {
   .masterclassProgramContainer {
-    max-width: 1260px;
     padding-left: 100px;
   }
 
@@ -370,12 +363,6 @@
 
   .offerContainer {
     align-items: center;
-  }
-}
-
-@media screen and (min-width: 1700px) and (max-width: 1919px) {
-  .masterclassProgramContainer {
-    max-width: 1342px;
   }
 }
 

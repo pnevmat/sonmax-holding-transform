@@ -190,7 +190,6 @@
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .whyYouMakeBusiness {
-    max-width: 360px;
     background-position: 50%;
   }
 
@@ -229,7 +228,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .whyYouMakeBusiness {
-    max-width: 743px;
     padding-left: 25px;
     background-position: 50%;
   }
@@ -237,7 +235,6 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .whyYouMakeBusiness {
-    max-width: 974px;
     padding-left: 50px;
     background-position: 50%;
   }
@@ -245,7 +242,6 @@
 
 @media screen and (min-width: 1280px) and (max-width: 1359px) {
   .whyYouMakeBusiness {
-    max-width: 1230px;
     padding-left: 50px;
     background-position: 50%;
   }
@@ -253,14 +249,7 @@
 
 @media screen and (min-width: 1360px) and (max-width: 1699px) {
   .whyYouMakeBusiness {
-    max-width: 1260px;
     padding-left: 100px;
     background-position: 50%;
-  }
-}
-
-@media screen and (min-width: 1700px) and (max-width: 1919px) {
-  .whyYouMakeBusiness {
-    max-width: 1342px;
   }
 }

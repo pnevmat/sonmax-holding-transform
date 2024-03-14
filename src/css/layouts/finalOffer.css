@@ -224,12 +224,10 @@
 }
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
-  .finalOfferContainer {
-    max-width: 360px;
-  }
-
   .finalOfferWrapper {
     max-width: 360px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .finalOfferTextContainer {
@@ -257,7 +255,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .finalOfferContainer {
-    max-width: 743px;
     padding-left: 25px;
   }
 
@@ -291,13 +288,12 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .finalOfferContainer {
-    max-width: 974px;
     padding-left: 50px;
   }
 
   .finalOfferWrapper {
     width: 100%;
-    max-width: 1200px;
+    max-width: 974px;
   }
 
   .finalOfferTextContainer {
@@ -313,7 +309,6 @@
 
 @media screen and (min-width: 1280px) and (max-width: 1359px) {
   .finalOfferContainer {
-    max-width: 1230px;
     padding-left: 50px;
   }
 
@@ -335,7 +330,6 @@
 
 @media screen and (min-width: 1360px) and (max-width: 1699px) {
   .finalOfferContainer {
-    max-width: 1260px;
     padding-left: 100px;
   }
 
@@ -356,10 +350,6 @@
 }
 
 @media screen and (min-width: 1700px) and (max-width: 1919px) {
-  .finalOfferContainer {
-    max-width: 1342px;
-  }
-
   .finalOfferWrapper {
     width: 100%;
     max-width: 1200px;

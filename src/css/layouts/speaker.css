@@ -221,12 +221,10 @@
 }
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
-  .speakerContaner {
-    max-width: 360px;
-  }
-
   .speakerCardContainer {
-    max-width: 743px;
+    max-width: 420px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .speakerTextContainer {
@@ -240,14 +238,15 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .speakerContaner {
-    max-width: 743px;
     padding-left: 25px;
   }
 
   .speakerCardContainer {
     flex-direction: column-reverse;
     gap: 20px;
-    max-width: 743px;
+    max-width: 768px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .speakerPhotoContainer {
@@ -263,29 +262,30 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .speakerContaner {
-    max-width: 974px;
     padding-left: 50px;
   }
 
   .speakerCardContainer {
     max-width: 974px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1359px) {
   .speakerContaner {
-    max-width: 1230px;
     padding-left: 50px;
   }
 
   .speakerCardContainer {
     max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
 @media screen and (min-width: 1360px) and (max-width: 1699px) {
   .speakerContaner {
-    max-width: 1260px;
     padding-left: 100px;
   }
 
@@ -295,10 +295,6 @@
 }
 
 @media screen and (min-width: 1700px) and (max-width: 1919px) {
-  .speakerContaner {
-    max-width: 1342px;
-  }
-
   .speakerCardContainer {
     max-width: 1053px;
   }

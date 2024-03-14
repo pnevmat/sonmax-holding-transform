@@ -1,10 +1,14 @@
 .header {
   width: 100%;
   padding-top: 35px;
-  margin-right: auto;
-  margin-left: auto;
   text-align: left;
   background-repeat: no-repeat, no-repeat;
+}
+
+.backgroundLiner {
+  max-width: 1204px;
+  /* margin-right: auto;
+  margin-left: auto; */
 }
 
 .paddings {
@@ -385,12 +389,6 @@
   }
 }
 
-@media screen and (min-width: 420px) and (max-width: 767px) {
-  .header {
-    max-width: 420px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .header {
     background-image: url('../../images//header-man-background.png'),
@@ -468,12 +466,11 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .header {
-    max-width: 718px;
     padding-right: 25px;
     padding-bottom: 50px;
     padding-left: 25px;
-    background-size: 58% 50%, 150% 130%;
-    background-position: 96.2% 56%, 45% 100%;
+    background-size: 55% 47%, 150% 130%;
+    background-position: 85% 56%, 45% 100%;
   }
 
   .questionsContainer {
@@ -501,7 +498,7 @@
     top: 67.4%;
     left: 0;
     width: 100%;
-    max-width: 911px;
+    max-width: 725px;
     height: 140px;
     border-radius: 20px;
   }
@@ -521,11 +518,10 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .header {
-    max-width: 974px;
     padding-left: 50px;
     padding-bottom: 50px;
-    background-size: 63.4% 70%, 150% 110%;
-    background-position: 96.7% 60%, 45% 100%;
+    background-size: 61% 70%, 150% 110%;
+    background-position: 96.5% 60%, 45% 100%;
   }
 
   .questionsContainer {
@@ -546,7 +542,7 @@
 
   .backgroundLinerPc {
     top: 68.1%;
-    left: 3.3%;
+    left: 6.6%;
     width: 100%;
     max-width: 911px;
     height: 280px;
@@ -588,10 +584,9 @@
 
 @media screen and (min-width: 1280px) and (max-width: 1359px) {
   .header {
-    max-width: 1230px;
     padding-left: 50px;
     padding-bottom: 50px;
-    background-size: 50.5% 78%, 150% 100%;
+    background-size: 50.5% 82%, 150% 100%;
     background-position: 92.5% 60%, 50% 100%;
   }
 
@@ -609,10 +604,9 @@
 
 @media screen and (min-width: 1360px) and (max-width: 1699px) {
   .header {
-    max-width: 1260px;
     padding-left: 100px;
-    background-size: 45% 78%, 150% 100%;
-    background-position: 90% 70%, 45% 100%;
+    background-size: 45% 85%, 100% 100%;
+    background-position: 78% 82%, 45% 100%;
   }
 
   .youGetBlockContainer {
@@ -623,16 +617,15 @@
 
   .backgroundLinerPc {
     top: 74.1%;
-    left: 23.7%;
+    left: 24.7%;
   }
 }
 
 @media screen and (min-width: 1700px) and (max-width: 1919px) {
   .header {
-    max-width: 1342px;
     padding-left: 358px;
-    background-size: 40.5% 88%, 150% 100%;
-    background-position: 87% 94%, 45% 0%;
+    background-size: 32.7% 88%, 90% 100%;
+    background-position: 63% 94%, 0% 0%;
   }
 
   .youGetBlockContainer {
@@ -643,7 +636,7 @@
 
   .backgroundLinerPc {
     top: 74%;
-    left: 22.3%;
+    left: 23.8%;
     width: 100%;
     max-width: 911px;
     height: 192px;
