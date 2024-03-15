@@ -1,10 +1,13 @@
 .invintationContainer {
   width: 100%;
+  background-color: #010101;
+}
+
+.invintationWrapper {
   padding-top: 89px;
   padding-bottom: 140px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #010101;
   text-align: left;
 }
 
@@ -102,7 +105,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .invintationContainer {
+  .invintationWrapper {
     padding: 30px;
   }
 
@@ -145,6 +148,10 @@
 }
 
 @media screen and (max-width: 339px) {
+  .invintationWrapper {
+    max-width: 260px;
+  }
+
   .invintationTitle {
     max-width: 260px;
   }
@@ -159,6 +166,10 @@
 }
 
 @media screen and (min-width: 340px) and (max-width: 359px) {
+  .invintationWrapper {
+    max-width: 280px;
+  }
+
   .invintationTitle {
     max-width: 280px;
   }
@@ -173,6 +184,10 @@
 }
 
 @media screen and (min-width: 360px) and (max-width: 379px) {
+  .invintationWrapper {
+    max-width: 300px;
+  }
+
   .invintationTitle {
     max-width: 300px;
   }
@@ -187,6 +202,10 @@
 }
 
 @media screen and (min-width: 380px) and (max-width: 419px) {
+  .invintationWrapper {
+    max-width: 320px;
+  }
+
   .invintationTitle {
     max-width: 320px;
   }
@@ -201,6 +220,10 @@
 }
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
+  .invintationWrapper {
+    max-width: 360px;
+  }
+
   .invintationContainer {
     display: flex;
     flex-direction: column;
@@ -221,7 +244,8 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .invintationContainer {
+  .invintationWrapper {
+    max-width: 743px;
     padding-left: 25px;
   }
 
@@ -239,7 +263,8 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .invintationContainer {
+  .invintationWrapper {
+    max-width: 974px;
     padding-left: 50px;
   }
 
@@ -267,7 +292,8 @@
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1359px) {
-  .invintationContainer {
+  .invintationWrapper {
+    max-width: 1230px;
     padding-left: 50px;
   }
 
@@ -281,7 +307,8 @@
 }
 
 @media screen and (min-width: 1360px) and (max-width: 1699px) {
-  .invintationContainer {
+  .invintationWrapper {
+    max-width: 1260px;
     padding-left: 100px;
   }
 
@@ -295,7 +322,8 @@
 }
 
 @media screen and (min-width: 1700px) and (max-width: 1919px) {
-  .invintationContainer {
+  .invintationWrapper {
+    max-width: 1342px;
     padding-left: 358px;
   }
 
@@ -309,8 +337,8 @@
 }
 
 @media screen and (min-width: 1920px) {
-  .invintationContainer {
-    max-width: 1920px;
+  .invintationWrapper {
+    max-width: 1562px;
     padding-left: 358px;
   }
 

@@ -1,10 +1,5 @@
 .finalOfferContainer {
   width: 100%;
-  padding-top: 89px;
-  padding-left: 358px;
-  padding-bottom: 140px;
-  margin-right: auto;
-  margin-left: auto;
   background-color: #010101;
 }
 
@@ -12,6 +7,11 @@
   display: flex;
   justify-content: space-between;
   width: 77.7%;
+  padding-top: 89px;
+  padding-left: 358px;
+  padding-bottom: 140px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .finalOfferTextContainer {
@@ -93,14 +93,11 @@
 }
 
 @media screen and (max-width: 767px) {
-  .finalOfferContainer {
-    padding: 30px;
-  }
-
   .finalOfferWrapper {
     flex-direction: column;
     gap: 20px;
     width: 100%;
+    padding: 30px;
   }
 
   .finalOfferTextContainer {
@@ -254,15 +251,12 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .finalOfferContainer {
-    padding-left: 25px;
-  }
-
   .finalOfferWrapper {
     flex-direction: column;
     gap: 20px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 743px;
+    padding-left: 25px;
   }
 
   .finalOfferTextContainer {
@@ -287,13 +281,10 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .finalOfferContainer {
-    padding-left: 50px;
-  }
-
   .finalOfferWrapper {
     width: 100%;
     max-width: 974px;
+    padding-left: 50px;
   }
 
   .finalOfferTextContainer {
@@ -308,13 +299,11 @@
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1359px) {
-  .finalOfferContainer {
-    padding-left: 50px;
-  }
-
   .finalOfferWrapper {
     width: 100%;
     max-width: 1200px;
+    padding-right: 30px;
+    padding-left: 50px;
   }
 
   .finalOfferTextContainer {
@@ -329,13 +318,11 @@
 }
 
 @media screen and (min-width: 1360px) and (max-width: 1699px) {
-  .finalOfferContainer {
-    padding-left: 100px;
-  }
-
   .finalOfferWrapper {
     width: 100%;
     max-width: 1200px;
+    padding-right: 60px;
+    padding-left: 100px;
   }
 
   .finalOfferTextContainer {
@@ -352,6 +339,7 @@
 @media screen and (min-width: 1700px) and (max-width: 1919px) {
   .finalOfferWrapper {
     width: 100%;
+    padding-right: 142px;
     max-width: 1200px;
   }
 
@@ -367,7 +355,8 @@
 }
 
 @media screen and (min-width: 1920px) {
-  .finalOfferContainer {
-    max-width: 1562px;
+  .finalOfferWrapper {
+    max-width: 1212px;
+    padding-right: 350px;
   }
 }
