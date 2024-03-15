@@ -4,6 +4,7 @@
 }
 
 .masterclassProgramWrapper {
+  position: relative;
   padding-top: 89px;
   padding-left: 358px;
   padding-bottom: 140px;
