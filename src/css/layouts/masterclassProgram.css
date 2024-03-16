@@ -151,6 +151,10 @@
   color: #000000;
 }
 
+.offerButton > a {
+  color: #000000;
+}
+
 @media screen and (max-width: 767px) {
   .masterclassProgramWrapper {
     padding-top: 30px;

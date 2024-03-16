@@ -152,6 +152,10 @@
   box-shadow: 0px 4px 34px 0px #fff40199;
 }
 
+.button > a {
+  color: #000000;
+}
+
 .youGetContainer {
   display: inline-flex;
   align-items: center;
