@@ -412,7 +412,7 @@
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .background {
     max-width: 420px;
-    background-size: 123% 40%;
+    background-size: 123% 42%;
     background-position: 50% 23.5%;
     background-repeat: no-repeat;
   }
@@ -642,7 +642,7 @@
     max-width: 1230px;
     padding-left: 50px;
     padding-bottom: 50px;
-    background-size: 50.5% 82%, 150% 100%;
+    background-size: 50.5% 81%, 150% 100%;
     background-position: 92.5% 60%, 50% 100%;
   }
 
@@ -662,7 +662,7 @@
   .background {
     max-width: 1260px;
     padding-left: 100px;
-    background-size: 49% 85%, 100% 100%;
+    background-size: 49% 86%, 100% 100%;
     background-position: 90% 82%, 45% 100%;
   }
 
