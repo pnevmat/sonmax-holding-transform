@@ -85,7 +85,7 @@
 
 .questionsTextWrapper {
   display: inline-block;
-  width: 78.4%;
+  width: 78.6%;
 }
 
 .transform {
@@ -144,7 +144,7 @@
   background-color: #fff401;
   font-family: Proxima Nova;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: center;
@@ -152,7 +152,7 @@
   box-shadow: 0px 4px 34px 0px #fff40199;
 }
 
-.button > a {
+a {
   color: #000000;
 }
 
@@ -663,7 +663,7 @@
     max-width: 1260px;
     padding-left: 100px;
     background-size: 49% 86%, 100% 100%;
-    background-position: 90% 82%, 45% 100%;
+    background-position: 90% 81%, 45% 100%;
   }
 
   .youGetBlockContainer {
