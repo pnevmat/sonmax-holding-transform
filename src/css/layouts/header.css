@@ -358,6 +358,14 @@ a {
     background-size: 125% 29%;
     background-position: 50% 24.5%;
   }
+
+  .headerButtonContainer {
+    max-width: 238px;
+  }
+
+  .youGetContainer {
+    max-width: 218px;
+  }
 }
 
 @media screen and (min-width: 340px) and (max-width: 359px) {
@@ -366,6 +374,14 @@ a {
     background-size: 125% 33%;
     background-position: 50% 24%;
   }
+
+  .headerButtonContainer {
+    max-width: 258px;
+  }
+
+  .youGetContainer {
+    max-width: 238px;
+  }
 }
 
 @media screen and (min-width: 360px) and (max-width: 379px) {
@@ -373,6 +389,14 @@ a {
     max-width: 360px;
     background-size: 125% 36%;
     background-position: 50% 25%;
+  }
+
+  .headerButtonContainer {
+    max-width: 278px;
+  }
+
+  .youGetContainer {
+    max-width: 258px;
   }
 }
 
@@ -407,6 +431,14 @@ a {
     background-size: 125% 39%;
     background-position: 50% 23.5%;
   }
+
+  .headerButtonContainer {
+    max-width: 298px;
+  }
+
+  .youGetContainer {
+    max-width: 278px;
+  }
 }
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
@@ -435,6 +467,14 @@ a {
 
   .descriptionContainer {
     margin-bottom: 250px;
+  }
+
+  .headerButtonContainer {
+    max-width: 338px;
+  }
+
+  .youGetContainer {
+    max-width: 318px;
   }
 }
 
