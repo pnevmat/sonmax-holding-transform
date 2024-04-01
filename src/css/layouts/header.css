@@ -39,10 +39,14 @@
   width: 75px;
 }
 
-.calendarSvg,
-.subtractSvg {
+.calendarSvg {
   width: 24px;
   height: 24px;
+}
+
+.subtractSvg {
+  width: 22px;
+  height: 27px;
 }
 
 .onlineText {
@@ -116,7 +120,7 @@
 }
 
 .instaStatsPng {
-  width: 23.5%;
+  width: 24.4%;
 }
 
 .youGetBlockContainer {
@@ -371,8 +375,8 @@ a {
 @media screen and (min-width: 340px) and (max-width: 359px) {
   .background {
     max-width: 340px;
-    background-size: 125% 33%;
-    background-position: 50% 24%;
+    background-size: 125% 32%;
+    background-position: 50% 23%;
   }
 
   .headerButtonContainer {
@@ -387,8 +391,8 @@ a {
 @media screen and (min-width: 360px) and (max-width: 379px) {
   .background {
     max-width: 360px;
-    background-size: 125% 36%;
-    background-position: 50% 25%;
+    background-size: 125% 35%;
+    background-position: 50% 24%;
   }
 
   .headerButtonContainer {
@@ -428,7 +432,7 @@ a {
 @media screen and (min-width: 380px) and (max-width: 419px) {
   .background {
     max-width: 380px;
-    background-size: 125% 39%;
+    background-size: 125% 38%;
     background-position: 50% 23.5%;
   }
 
