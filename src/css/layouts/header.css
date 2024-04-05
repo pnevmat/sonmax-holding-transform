@@ -359,8 +359,8 @@ a {
 @media screen and (min-width: 320px) and (max-width: 339px) {
   .background {
     max-width: 320px;
-    background-size: 125% 29%;
-    background-position: 50% 24.5%;
+    background-size: 125% 28%;
+    background-position: 50% 23.5%;
   }
 
   .headerButtonContainer {
@@ -375,8 +375,8 @@ a {
 @media screen and (min-width: 340px) and (max-width: 359px) {
   .background {
     max-width: 340px;
-    background-size: 125% 32%;
-    background-position: 50% 23%;
+    background-size: 125% 31%;
+    background-position: 50% 22%;
   }
 
   .headerButtonContainer {
@@ -391,8 +391,8 @@ a {
 @media screen and (min-width: 360px) and (max-width: 379px) {
   .background {
     max-width: 360px;
-    background-size: 125% 35%;
-    background-position: 50% 24%;
+    background-size: 125% 34%;
+    background-position: 50% 23%;
   }
 
   .headerButtonContainer {
@@ -432,8 +432,8 @@ a {
 @media screen and (min-width: 380px) and (max-width: 419px) {
   .background {
     max-width: 380px;
-    background-size: 125% 38%;
-    background-position: 50% 23.5%;
+    background-size: 125% 36.5%;
+    background-position: 50% 24%;
   }
 
   .headerButtonContainer {
@@ -567,8 +567,8 @@ a {
     padding-right: 25px;
     padding-bottom: 50px;
     padding-left: 25px;
-    background-size: 55% 47%, 150% 130%;
-    background-position: 95% 57%, 45% 100%;
+    background-size: 55% 43%, 150% 130%;
+    background-position: 95% 60%, 45% 100%;
   }
 
   .questionsContainer {
@@ -593,7 +593,7 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 67.4%;
+    top: 69.6%;
     left: 0;
     width: 100%;
     max-width: 725px;
@@ -619,12 +619,13 @@ a {
     max-width: 974px;
     padding-left: 50px;
     padding-bottom: 50px;
-    background-size: 63% 70%, 150% 110%;
-    background-position: 103% 60%, 45% 100%;
+    background-size: 63% 64%, 150% 110%;
+    background-position: 103% 68%, 45% 100%;
   }
 
   .questionsContainer {
-    max-width: 924px;
+    max-width: 894px;
+    padding-right: 60px;
   }
 
   .transform {
@@ -640,7 +641,7 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 68.1%;
+    top: 71.4%;
     left: 6.6%;
     width: 100%;
     max-width: 911px;
@@ -686,8 +687,13 @@ a {
     max-width: 1230px;
     padding-left: 50px;
     padding-bottom: 50px;
-    background-size: 50.5% 81%, 150% 100%;
-    background-position: 92.5% 60%, 50% 100%;
+    background-size: 50.5% 71%, 150% 100%;
+    background-position: 92.5% 75%, 50% 100%;
+  }
+
+  .questionsContainer {
+    max-width: 1157px;
+    padding-right: 15px;
   }
 
   .youGetBlockContainer {
@@ -696,7 +702,7 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 74.1%;
+    top: 77%;
     left: 25.9%;
     height: 192px;
   }
@@ -706,8 +712,8 @@ a {
   .background {
     max-width: 1260px;
     padding-left: 100px;
-    background-size: 49% 86%, 100% 100%;
-    background-position: 90% 81%, 45% 100%;
+    background-size: 49% 78%, 100% 100%;
+    background-position: 90% 89%, 45% 100%;
   }
 
   .youGetBlockContainer {
@@ -717,8 +723,8 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 74.1%;
-    left: 24.7%;
+    top: 77%;
+    left: 24%;
   }
 }
 
@@ -726,7 +732,7 @@ a {
   .background {
     max-width: 1342px;
     padding-left: 358px;
-    background-size: 40% 88%, 90% 100%;
+    background-size: 40% 80%, 90% 100%;
     background-position: 85.5% 97%, 0% 0%;
   }
 
@@ -737,8 +743,8 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 74%;
-    left: 23.8%;
+    top: 77%;
+    left: 22%;
     width: 100%;
     max-width: 911px;
     height: 192px;
@@ -752,8 +758,8 @@ a {
     padding-right: 358px;
     padding-bottom: 140px;
     padding-left: 358px;
-    background-size: 36.5% 80%, cover;
-    background-position: 71% 31%, top;
+    background-size: 36.5% 73%, cover;
+    background-position: 71% 51%, top;
   }
 
   .youGetBlockContainer {
@@ -763,8 +769,8 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 78.5%;
-    left: 24.5%;
+    top: 81%;
+    left: 23%;
   }
 
   .youGetImgContainer {

@@ -41,6 +41,14 @@ button:focus {
   }
 }
 
+.bold {
+  font-weight: 700;
+}
+
+.upperCase {
+  text-transform: uppercase;
+}
+
 .is-hiden {
   display: none;
 }

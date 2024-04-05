@@ -40,7 +40,7 @@
 
 .invitationListCard {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   padding: 20px;
   padding-left: 10px;
