@@ -358,9 +358,13 @@ a {
 
 @media screen and (min-width: 320px) and (max-width: 339px) {
   .background {
-    max-width: 320px;
-    background-size: 125% 28%;
-    background-position: 50% 23.5%;
+    max-width: 380px;
+    background-size: 75% 18.8%;
+    background-position: 115% 23%;
+  }
+
+  .descriptionContainer {
+    margin-bottom: 60px;
   }
 
   .headerButtonContainer {
@@ -374,9 +378,13 @@ a {
 
 @media screen and (min-width: 340px) and (max-width: 359px) {
   .background {
-    max-width: 340px;
-    background-size: 125% 31%;
-    background-position: 50% 22%;
+    max-width: 380px;
+    background-size: 80% 22.5%;
+    background-position: 115% 23%;
+  }
+
+  .descriptionContainer {
+    margin-bottom: 80px;
   }
 
   .headerButtonContainer {
@@ -390,9 +398,13 @@ a {
 
 @media screen and (min-width: 360px) and (max-width: 379px) {
   .background {
-    max-width: 360px;
-    background-size: 125% 33%;
-    background-position: 50% 23%;
+    max-width: 380px;
+    background-size: 85% 25%;
+    background-position: 115% 23%;
+  }
+
+  .descriptionContainer {
+    margin-bottom: 105px;
   }
 
   .headerButtonContainer {
@@ -432,8 +444,12 @@ a {
 @media screen and (min-width: 380px) and (max-width: 419px) {
   .background {
     max-width: 380px;
-    background-size: 125% 36%;
-    background-position: 50% 24%;
+    background-size: 85% 26.5%;
+    background-position: 105% 23%;
+  }
+
+  .descriptionContainer {
+    margin-bottom: 105px;
   }
 
   .headerButtonContainer {
@@ -448,8 +464,8 @@ a {
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .background {
     max-width: 420px;
-    background-size: 123% 41%;
-    background-position: 50% 23.5%;
+    background-size: 100% 36%;
+    background-position: 50% 22%;
     background-repeat: no-repeat;
   }
 
@@ -470,8 +486,12 @@ a {
   }
 
   .descriptionContainer {
-    margin-bottom: 250px;
+    margin-bottom: 130px;
   }
+
+  /* .descriptionContainer {
+    margin-bottom: 250px;
+  } */
 
   .headerButtonContainer {
     max-width: 338px;
