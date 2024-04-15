@@ -464,13 +464,25 @@ a {
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .background {
     max-width: 420px;
-    background-size: 100% 36%;
+    background-size: 100% 36.1%;
     background-position: 50% 22%;
     background-repeat: no-repeat;
   }
 
   .backgroundLiner {
     background-image: linear-gradient(
+      to top,
+      rgba(8, 8, 8, 1) 62%,
+      rgba(8, 8, 8, 0.9) 63.58%,
+      rgba(8, 8, 8, 0.8) 64.58%,
+      rgba(8, 8, 8, 0.7) 65.58%,
+      rgba(8, 8, 8, 0.6) 66.58%,
+      rgba(8, 8, 8, 0.5) 67.58%,
+      rgba(8, 8, 8, 0.4) 68.58%,
+      rgba(8, 8, 8, 0.3) 69.58%,
+      rgba(8, 8, 8, 0.2) 70.58%
+    );
+    /* background-image: linear-gradient(
       to top,
       rgba(8, 8, 8, 1) 54%,
       rgba(8, 8, 8, 0.9) 55.58%,
@@ -481,7 +493,7 @@ a {
       rgba(8, 8, 8, 0.4) 60.58%,
       rgba(8, 8, 8, 0.3) 61.58%,
       rgba(8, 8, 8, 0.2) 62.58%
-    );
+    ); */
     background-repeat: no-repeat;
   }
 
