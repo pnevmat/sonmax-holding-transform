@@ -433,6 +433,21 @@ a {
     background-position: 115% 23%;
   }
 
+  .backgroundLiner {
+    background-image: linear-gradient(
+      to top,
+      rgba(8, 8, 8, 1) 64%,
+      rgba(8, 8, 8, 0.9) 65.58%,
+      rgba(8, 8, 8, 0.8) 66.58%,
+      rgba(8, 8, 8, 0.7) 67.58%,
+      rgba(8, 8, 8, 0.6) 68.58%,
+      rgba(8, 8, 8, 0.5) 69.58%,
+      rgba(8, 8, 8, 0.4) 70.58%,
+      rgba(8, 8, 8, 0.3) 71.58%,
+      rgba(8, 8, 8, 0.2) 72.58%
+    );
+  }
+
   .descriptionContainer {
     margin-bottom: 105px;
   }
