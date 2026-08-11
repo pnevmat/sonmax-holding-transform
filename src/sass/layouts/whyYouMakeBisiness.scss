@@ -1,3 +1,5 @@
+@use '../utils/mixins';
+
 .whyYouMakeBusiness {
   width: 100%;
   padding-top: 89px;
@@ -79,7 +81,7 @@
   .whyYouMakeBusiness {
     padding-top: 50px;
     padding-bottom: 269px;
-    background-image: url('../../images/why-make-business-background-mobile.jpg');
+		@include mixins.responsive-bg('../images/why-make-business-background-mobile', 'jpg');
   }
 
   .textContainer {
@@ -232,7 +234,7 @@
 
 @media screen and (min-width: 768px) {
   .whyYouMakeBusiness {
-    background-image: url('../../images/why-make-business-background-pc.jpg');
+		@include mixins.responsive-bg('../images/why-make-business-background-pc', 'jpg');
   }
 
   .title {

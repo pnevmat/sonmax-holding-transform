@@ -54,7 +54,17 @@
         </div>
       </div>
       <div class="speakerPhotoContainer">
-        <img src="./images/kyrylo-kaftannyk.png" alt="Кирило Кафтаник" />
+        <picture>
+          <source
+            srcset="./images/kyrylo-kaftannyk.png?as=avif"
+            type="image/avif"
+          />
+          <source
+            srcset="./images/kyrylo-kaftannyk.png?as=webp"
+            type="image/webp"
+          />
+          <img src="./images/kyrylo-kaftannyk.png" alt="Кирило Кафтаник" />
+        </picture>
       </div>
     </div>
   </div>

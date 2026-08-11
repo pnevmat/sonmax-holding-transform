@@ -1,0 +1,8 @@
+@mixin responsive-bg($path, $extension, $quality: 75) { 
+	// 1. Фолбэк для старых браузеров (если они вообще не знают, что такое image-set) 
+	background-image: url('#{$path}.#{$extension}?quality=#{$quality}');
+	// 2. Идеальная цепочка: AVIF -> WebP -> Оригинальный формат 
+	background-image: image-set( 
+		url('#{$path}.#{$extension}?as=avif&quality=#{$quality}') type("image/avif"), url('#{$path}.#{$extension}?as=webp&quality=#{$quality}') type("image/webp"), url('#{$path}.#{$extension}?quality=#{$quality}') type("image/#{$extension}") 
+	); 
+}

@@ -1,3 +1,5 @@
+@use '../utils/mixins';
+
 .header {
   width: 100%;
 }
@@ -120,7 +122,7 @@
 }
 
 .instaStatsPng {
-  width: 24.4%;
+  width: 66.4%;
 }
 
 .youGetBlockContainer {
@@ -213,7 +215,7 @@ a {
   }
 
   .logo,
-  .logo > img {
+  .logo > picture > img {
     width: 73px;
     height: 63px;
   }
@@ -352,7 +354,7 @@ a {
 
 @media screen and (max-width: 767px) {
   .background {
-    background-image: url('../../images//header-man-background.png');
+		@include mixins.responsive-bg('../images/header-man-background', 'png');
   }
 }
 
@@ -550,12 +552,12 @@ a {
 
 @media screen and (min-width: 768px) {
   .header {
-    background-image: url('../../images/header-background.png');
+		@include mixins.responsive-bg('../images/header-background', 'png');
     background-size: cover;
   }
 
   .background {
-    background-image: url('../../images//header-man-background.png');
+		@include mixins.responsive-bg('../images/header-man-background', 'png');
   }
 
   .masterclassContainer {
@@ -568,7 +570,7 @@ a {
   }
 
   .logo,
-  .logo > img {
+  .logo > picture > img {
     width: 65px;
     height: 56px;
   }
@@ -593,6 +595,10 @@ a {
     align-items: end;
     padding-right: 30px;
   }
+
+	.questionsContainer > picture {
+		text-align: right;
+	}
 
   .questionsTextContainer {
     width: 60%;
@@ -728,6 +734,11 @@ a {
     height: 72px;
   }
 
+	.youGetImgContainer > picture {
+		width: 100%;
+		height: 100%;
+	}
+
   .youGetImg {
     position: relative;
     top: -54%;
@@ -789,7 +800,7 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 77%;
+    top: 77.1%;
     left: 24%;
   }
 }
@@ -836,7 +847,7 @@ a {
 
   .backgroundLinerPc {
     top: 81%;
-    left: 23%;
+    left: 24%;
   }
 
   .youGetImgContainer {
